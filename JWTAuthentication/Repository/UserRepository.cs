@@ -19,21 +19,14 @@ namespace JWTAuthentication.Repository
             users.Add(new UserDTO
             {
                 UserName = "miranda",
-                Password = "weirdo",
-                Role = "manager"
-            });
-
-            users.Add(new UserDTO
-            {
-                UserName = "jayne",
-                Password = "woodenspoon",
+                Password = "chicken",
                 Role = "dev"
             });
 
             users.Add(new UserDTO
             {
                 UserName = "lilly",
-                Password = "flowerchild",
+                Password = "flower",
                 Role = "admin"
             });
 
